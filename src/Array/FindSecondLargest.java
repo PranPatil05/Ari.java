@@ -36,7 +36,7 @@ public class FindSecondLargest {
 //
 //            System.out.println(newarr[newarr.length-2]);
 
-        //pranav Patil made changes
+        //pranav Patil made changes - added
 
         }
     }
