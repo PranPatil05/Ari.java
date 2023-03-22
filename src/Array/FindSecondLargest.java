@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 public class FindSecondLargest {
     public static void main(String[] args) {
 //        int[] a = {1, 2, 3, 4, 3, 5,3};
@@ -11,6 +13,12 @@ public class FindSecondLargest {
 //        for (int i=0;i<b.length;i++){
 //            System.out.println(b[i]);
             int[] arr={10,50,30,40};
+
+            char[] ch={'a','d','c','g','b'};
+
+        Arrays.sort(ch);
+
+        System.out.println(ch);
 
             for(int i=0;i< arr.length;i++){
                 int temp=0;

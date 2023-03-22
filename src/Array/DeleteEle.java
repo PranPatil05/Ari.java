@@ -16,9 +16,9 @@ public class DeleteEle {
             }
         }
 //        System.out.println("Resultant Array: " + Arrays.toString(my_array));
-//        for (int i = 0; i < my_array.length; i++){
-//            System.out.println(my_array[i]);
-//        }
+        for (int i = 0; i < my_array.length; i++){
+            System.out.println(my_array[i]);
+        }
     }
     public static String[] removeTheElement(String[] arr,
                                          int index)
