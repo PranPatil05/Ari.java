@@ -11,7 +11,7 @@ import java.util.Iterator;
 
 public class ReadingExcel {
     public static void main(String[] args) throws IOException {
-        String excelFilePath = "E:\\Trial\\src\\DataFiles\\FightData.xlsx";
+        String excelFilePath = "F:\\Trial\\src\\DataFiles\\FightData.xlsx";
 
         FileInputStream inputstream = new FileInputStream(excelFilePath);
 

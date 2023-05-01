@@ -12,7 +12,7 @@ import java.util.*;
 public class ExcelToHashMap {
     public static void main(String[] args) throws IOException {
         DataFormatter formatter = new DataFormatter();
-        FileInputStream fis = new FileInputStream("E:\\Trial\\src\\DataFiles\\FightData.xlsx");
+        FileInputStream fis = new FileInputStream("F:\\Trial\\src\\DataFiles\\FightData.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheet("FindFlightData");
         XSSFRow row = sheet.getRow(0);
