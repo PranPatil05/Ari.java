@@ -24,6 +24,11 @@ public class Stringtrial {
         System.out.println(numericStr);
         System.out.println(specialCharStr);
 
+        String s2="Pranav";
+        String s3="Patil";
+
+        System.out.println(s1+s2);
+
     }
 
 }

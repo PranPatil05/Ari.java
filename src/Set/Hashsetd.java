@@ -27,7 +27,7 @@ public class Hashsetd {
          aj.add(s2);
          aj.add(s3);
 
-//        System.out.println(aj);
+        System.out.println(aj);
 //        RollNoComparator rollCompare = new RollNoComparator();
 //        TreeSet ts = new TreeSet(rollCompare);
 //        ts.add(s2);
@@ -51,13 +51,13 @@ class Student{
         this.name=name;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Student{" +
-//                "roll=" + roll +
-//                ", name='" + name + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "roll=" + roll +
+                ", name='" + name + '\'' +
+                '}';
+    }
 
     @Override
     public boolean equals(Object o) {

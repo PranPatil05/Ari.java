@@ -2,7 +2,8 @@ package Array;
 
 import java.util.*;
 
-public class Remove_Duplicate_set {
+public class
+Remove_Duplicate_set {
     public static void main(String[] args) {
         int[] a = {1, 3, 4, 5, 3};
         char[] b = {'A', 'B', 'A', 'C', 'D'};

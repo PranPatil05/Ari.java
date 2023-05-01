@@ -12,7 +12,7 @@ public class Demo {
             {
                 System.out.println("Statement 4");
                 System.out.println("Statement 5");
-                System.out.println(10/0);
+//                System.out.println(10/0);
                 System.out.println("Statement 6");
             }
             catch (ArithmeticException e)
