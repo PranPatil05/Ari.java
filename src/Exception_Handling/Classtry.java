@@ -1,10 +1,10 @@
 package Exception_Handling;
 
-public class Classtry extends Exceptionhandlingmethods{
+public class Classtry{
 
     public static void main(String[] args) throws Exception {
-        Exceptionhandlingmethods s1=new Classtry();
-         s1.method3();
+//        Exceptionhandlingmethods s1=new Classtry();
+//         s1.method3();
 
     }
 

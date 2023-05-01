@@ -31,7 +31,5 @@ public class MapDemo {
         System.out.println(hm);
 
 
-
-
     }
 }
